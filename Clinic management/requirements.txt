@@ -1,0 +1,21 @@
+# Clinic Management System - Requirements
+# This project uses only Python standard library - NO external dependencies required
+
+# System Requirements:
+# - Python 3.7 or higher
+# - tkinter (included with Python)
+# - sqlite3 (included with Python)
+
+# Standard Library Modules Used:
+# - tkinter (GUI framework)
+# - sqlite3 (Database)
+# - hashlib (Password hashing)
+# - datetime (Date/Time operations)
+# - os (File and directory operations)
+
+# Installation:
+# 1. Ensure Python 3.7+ is installed
+# 2. Verify tkinter is available: python -m tkinter
+# 3. Run the application: python main.py
+
+# No pip packages needed!
