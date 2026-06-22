@@ -1,6 +1,6 @@
 # 📚 Documentation Overview & SDG Alignment
 
-A complete guide to the Clinic Management System's documentation structure and how it supports global health initiatives.
+A complete guide to the Clinic Management System's documentation structure and how it supports global health initiatives to help the health system in a proper management system
 
 ---
 
