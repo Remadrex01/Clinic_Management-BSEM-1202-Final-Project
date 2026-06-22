@@ -1,97 +1,315 @@
-MIT License
+# CLINIC MANAGEMENT SYSTEM LICENSE, TERMS OF USE, AND LEGAL DOCUMENTATION
+
+## Version 1.0
+
+### Copyright Notice
 
 Copyright (c) 2024 Clinic Management System Contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the conditions specified in this document.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 ---
 
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+# 1. PROJECT OVERVIEW
 
-1. Definitions.
-   "License" shall mean the terms and conditions for use, reproduction,
-   and distribution.
-   "Licensor" shall mean the copyright owner or entity authorized by
-   the copyright owner that is granting the License.
-   "You" (or "Your") shall mean an individual or Legal Entity exercising
-   permissions granted by this License.
-   "Source" form shall mean the preferred form for making modifications.
-   "Object" form shall mean any form resulting from mechanical
-   transformation or translation of a Source form.
-   "Work" shall mean the work of authorship, whether in Source or Object
-   form, made available under the License, as indicated by a copyright
-   notice that is included in or attached to the work.
-   "Derivative Works" shall mean any work, whether modifications or
-   extensions that represent, as a whole, an original work of
-   authorship, including any Source or Object form.
-   "Contribution" shall mean any work of authorship, including the
-   original Work and any Derivative Works.
-   "Contributor" shall mean Licensor and any Legal Entity on behalf of
-   whom a Contribution has been received by Licensor and subsequently
-   incorporated within the Work.
+The Clinic Management System is a software solution developed to assist healthcare facilities in managing their daily operations efficiently. The system provides a centralized platform for handling patient records, doctor information, appointment scheduling, prescriptions, billing, payments, and administrative functions.
 
-2. Grant of Copyright License. Subject to the terms and conditions of this
-   License, each Contributor hereby grants to You a perpetual,
-   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-   copyright license to reproduce, prepare Derivative Works of,
-   publicly display, publicly perform, sublicense, and distribute the
-   Work and such Derivative Works in Source or Object form.
+The primary objective of the system is to replace traditional paper-based record management with a computerized and secure environment that improves productivity, accuracy, and accessibility of healthcare information.
 
-3. Grant of Patent License. Subject to the terms and conditions of this
-   License, each Contributor hereby grants to You a perpetual,
-   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-   (except as stated in this section) patent license to make, have made,
-   use, offer to sell, sell, import, and otherwise transfer the Work.
-
-4. Redistribution. You may reproduce and distribute copies of the Work
-   or Derivative Works thereof in any medium, with or without
-   modifications, and in Source or Object form, provided that You meet
-   the following conditions:
-   
-   (a) You must give any other recipients of the Work or Derivative Works
-       a copy of this License; and
-   
-   (b) You must cause any modified files to carry prominent notices
-       stating that You changed the files; and
-   
-   (c) You must retain, in the Source form of any Derivative Works that
-       You distribute, all copyright, patent, trademark, and attribution
-       notices from the Source form of the Work; and
-   
-   (d) If the Work includes a "NOTICE" text file, then any Derivative
-       Works that You distribute must include a readable copy of the
-       attribution notices contained within such NOTICE file.
-
-5. Submission of Contributions. Unless You explicitly state otherwise,
-   any Contribution intentionally submitted for inclusion in the Work
-   by You to Licensor shall be under the terms and conditions of this
-   License, without any additional terms or conditions.
+The software has been designed using Object-Oriented Programming (OOP) principles to ensure maintainability, scalability, code reusability, and ease of future development.
 
 ---
 
-DISCLAIMER
+# 2. PURPOSE OF THE SYSTEM
 
-THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. IN NO EVENT SHALL ANY CONTRIBUTOR BE LIABLE FOR ANY DIRECT,
-INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+The Clinic Management System aims to:
+
+* Improve patient record management.
+* Reduce paperwork and manual data entry errors.
+* Enhance communication between doctors and administrative staff.
+* Streamline appointment scheduling processes.
+* Provide secure access to medical information.
+* Generate reports and statistics for management purposes.
+* Improve service delivery within healthcare facilities.
+* Ensure proper storage and retrieval of healthcare records.
+
+---
+
+# 3. SOFTWARE FEATURES
+
+The Clinic Management System includes but is not limited to the following modules:
+
+### Patient Management Module
+
+This module allows administrators and medical personnel to:
+
+* Register new patients.
+* Update patient information.
+* Search patient records.
+* Delete inactive records.
+* View patient medical history.
+
+### Doctor Management Module
+
+This module allows users to:
+
+* Register doctors.
+* Manage doctor profiles.
+* Assign specialties.
+* Update doctor information.
+* View doctor schedules.
+
+### Appointment Management Module
+
+Features include:
+
+* Booking appointments.
+* Rescheduling appointments.
+* Appointment cancellation.
+* Viewing appointment history.
+* Managing appointment availability.
+
+### Prescription Management Module
+
+This module enables doctors to:
+
+* Create prescriptions.
+* View prescription history.
+* Update prescription records.
+* Print prescription details.
+
+### Billing and Payment Module
+
+The payment module provides:
+
+* Invoice generation.
+* Payment processing.
+* Billing history.
+* Financial reporting.
+* Revenue tracking.
+
+### Dashboard Module
+
+The dashboard displays:
+
+* Total patients.
+* Total doctors.
+* Total appointments.
+* Revenue statistics.
+* System activity summary.
+
+---
+
+# 4. USER RESPONSIBILITIES
+
+All users of the Clinic Management System agree to:
+
+1. Use the software responsibly.
+2. Maintain the confidentiality of login credentials.
+3. Prevent unauthorized access to patient information.
+4. Comply with applicable healthcare and privacy regulations.
+5. Avoid misuse of system resources.
+6. Report security vulnerabilities when discovered.
+7. Ensure the accuracy of entered data.
+
+Failure to comply with these responsibilities may result in termination of access privileges.
+
+---
+
+# 5. DATA PRIVACY AND CONFIDENTIALITY
+
+The Clinic Management System may store sensitive patient and healthcare-related information.
+
+Users must:
+
+* Protect confidential information.
+* Avoid sharing patient records without authorization.
+* Follow local and international privacy regulations.
+* Ensure proper handling of medical records.
+
+The system administrators shall implement reasonable security measures to safeguard stored information.
+
+---
+
+# 6. SECURITY POLICY
+
+To enhance security, the system includes:
+
+* User authentication.
+* Password protection.
+* Role-based access control.
+* Data validation mechanisms.
+* Error handling procedures.
+* Activity monitoring.
+
+Users are prohibited from:
+
+* Attempting unauthorized access.
+* Modifying system files without authorization.
+* Circumventing security controls.
+* Uploading malicious software.
+
+---
+
+# 7. SYSTEM REQUIREMENTS
+
+Minimum requirements for deployment include:
+
+### Hardware Requirements
+
+* Processor: Intel Core i3 or higher
+* RAM: 4 GB minimum
+* Storage: 20 GB free space
+* Display Resolution: 1366 × 768
+
+### Software Requirements
+
+* Python 3.10 or later
+* SQLite or MySQL Database
+* Visual Studio Code
+* Git (Optional)
+* Windows 10/11 or Linux
+
+---
+
+# 8. INSTALLATION RIGHTS
+
+Users are granted permission to:
+
+* Install the software on personal computers.
+* Install the software on organizational systems.
+* Modify source code for educational purposes.
+* Extend functionality through custom modules.
+
+Users may not:
+
+* Remove copyright notices.
+* Misrepresent ownership.
+* Sell the software without proper attribution.
+
+---
+
+# 9. MAINTENANCE AND SUPPORT
+
+The contributors may provide updates, patches, bug fixes, and feature enhancements when available.
+
+Support may include:
+
+* Documentation updates.
+* Security improvements.
+* Performance optimization.
+* Bug correction releases.
+
+However, support is not guaranteed under this license.
+
+---
+
+# 10. LIMITATION OF LIABILITY
+
+Under no circumstances shall the authors, developers, contributors, or affiliated organizations be liable for:
+
+* Data loss.
+* Business interruption.
+* Financial losses.
+* Medical decision errors.
+* System downtime.
+* Security breaches caused by third-party actions.
+
+The user assumes all risks associated with the use of this software.
+
+---
+
+# 11. EDUCATIONAL USE
+
+This software may be used for:
+
+* Academic projects.
+* Research activities.
+* Student demonstrations.
+* Software engineering studies.
+* Database management learning.
+* Healthcare information system training.
+
+Educational institutions may modify and distribute copies provided proper attribution is maintained.
+
+---
+
+# 12. FUTURE ENHANCEMENTS
+
+Future versions of the Clinic Management System may include:
+
+* Online appointment booking.
+* SMS notifications.
+* Email notifications.
+* Cloud database integration.
+* Mobile application support.
+* Multi-clinic management.
+* Electronic Medical Records (EMR) integration.
+* Advanced analytics and reporting.
+* AI-assisted healthcare recommendations.
+
+---
+
+# 13. CONTRIBUTION POLICY
+
+Contributors are encouraged to:
+
+* Submit bug reports.
+* Suggest new features.
+* Improve documentation.
+* Enhance user experience.
+* Develop additional modules.
+
+All accepted contributions become part of the project and are subject to this license.
+
+---
+
+# 14. TERMINATION
+
+This license automatically terminates if any user violates the conditions outlined in this document.
+
+Upon termination:
+
+* All rights granted under this license cease immediately.
+* Unauthorized copies must be removed.
+* Distribution privileges are revoked.
+
+---
+
+# 15. ACKNOWLEDGEMENT
+
+By installing, copying, modifying, or using the Clinic Management System, users acknowledge that they have read, understood, and agreed to all terms and conditions contained within this document.
+
+---
+
+# DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, PERFORMANCE, SECURITY, OR NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS, DEVELOPERS, CONTRIBUTORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR INABILITY TO USE THE SOFTWARE.
+
+---
+
+# AUTHOR INFORMATION
+
+Project Name: Clinic Management System
+
+Development Approach: Object-Oriented Programming (OOP)
+
+Programming Language: Python
+
+Database: SQLite / MySQL
+
+User Interface: Tkinter / Custom GUI Framework
+
+Version: 1.0
+
+Year: 2024–2026
+
+License: MIT License
+
+End of Document
